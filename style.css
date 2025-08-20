@@ -1,21 +1,26 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0d0d0d;
-  color: #ccc;
+  font-family: Georgia;
+    font-size: 12px;
+  background: #171717;
+  color: #C0C0C0;
+ text-shadow: 1px 2px 2px #000000;
 }
 
 .top-bar, footer {
   background: #990000;
-  color: #fff;
+  color: #C0C0C0;
+ text-shadow: 1px 2px 2px #000000;
   text-align: center;
-  padding: 5px;
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-family: Georgia;
+    font-size: 12px;  
+ font-style: italic;
+padding: 5px;
+  letter-spacing: 2.5px;
 }
 
 .banner img {
-  width: 100%;
+  width: 0 auto;
   display: block;
 }
 
@@ -23,6 +28,10 @@ body {
   display: flex;
   justify-content: center;
   background: #111;
+color: #C0C0C0;
+ text-shadow: 1px 2px 2px #000000;
+  font-family: Georgia;
+    font-size: 12px;  
   padding: 10px;
   gap: 10px;
 }
@@ -31,18 +40,26 @@ body {
   background: #990000;
   padding: 8px 16px;
   border-radius: 20px;
-  color: #fff;
+color: #C0C0C0;
+ text-shadow: 1px 2px 2px #000000;
+  font-family: Georgia;
+    font-size: 12px;
   text-decoration: none;
   font-weight: bold;
   box-shadow: 2px 2px 5px #000;
 }
 
 .menu a:hover {
-  background: #cc0000;
+  background: #121212;
+color: #B91A1A;
+ text-shadow: 1px 2px 2px #000000;
+  font-family: Georgia;
+    font-size: 11px;
+
 }
 
 main {
-  max-width: 800px;
+  max-width: 500px;
   margin: auto;
   padding: 20px;
 }
@@ -58,14 +75,14 @@ h2, h3 {
 }
 
 .intro {
-  background: #111;
+  background: #121212;
   padding: 20px;
-  border-left: 4px solid #990000;
+  border-left: 3px solid #990000;
   margin-bottom: 20px;
 }
 
 .conteudo {
-  background: #111;
+  background: #121212;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -85,5 +102,4 @@ h2, h3 {
 .icones img {
   width: 30px;
   margin: 5px;
-  filter: brightness(0) invert(1);
 }
