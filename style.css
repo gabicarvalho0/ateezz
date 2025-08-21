@@ -21,7 +21,7 @@ padding: 5px;
 
 .banner {
   text-align: center; /* centraliza dentro da div */
-  background: #000; /* opcional, fundo */
+  background: #171717; /* opcional, fundo */
 }
 
 .banner img {
@@ -77,7 +77,8 @@ h1 {
  text-shadow: 1px 2px 2px #000000;
   text-align: center;
   font-family: Georgia;
-    font-size: 12px; 
+    font-size: 11px; 
+  box-shadow: 2px 2px 5px #000;
 }
 
 
@@ -104,6 +105,10 @@ h1 {
   background: #111;
   padding: 20px;
   text-align: center;
+  font-family: Georgia;
+    font-size: 11px; 
+  border-left: 3px solid #990000;
+  box-shadow: 2px 2px 5px #000;
 }
 
 .icones img {
