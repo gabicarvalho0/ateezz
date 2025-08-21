@@ -19,9 +19,16 @@ padding: 5px;
   letter-spacing: 2.5px;
 }
 
+.banner {
+  text-align: center; /* centraliza dentro da div */
+  background: #000; /* opcional, fundo */
+}
+
 .banner img {
-  width: 0 auto;
   display: block;
+  margin: 0 auto; /* centraliza */
+  max-width: 100%; /* mantém responsivo */
+  height: auto;
 }
 
 .menu {
@@ -55,6 +62,7 @@ color: #B91A1A;
  text-shadow: 1px 2px 2px #000000;
   font-family: Georgia;
     font-size: 11px;
+ font-style: italic;
 
 }
 
@@ -65,14 +73,13 @@ main {
 }
 
 h1 {
-  font-size: 36px;
-  color: #fff;
+  color: #C0C0C0;
+ text-shadow: 1px 2px 2px #000000;
+  text-align: center;
+  font-family: Georgia;
+    font-size: 12px; 
 }
 
-h2, h3 {
-  color: #990000;
-  text-transform: uppercase;
-}
 
 .intro {
   background: #121212;
