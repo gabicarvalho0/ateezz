@@ -103,6 +103,15 @@ display: grid;
   display: block;
 }
 
+.intro2 {
+  background: #121212;
+  padding: 20px;
+  border-left: 3px solid #990000;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px #000;
+text-align: center;
+}
+
 .conteudo {
   background: #121212;
   padding: 11px;
