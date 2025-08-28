@@ -94,9 +94,9 @@ text-align: center;
 
 .intro img {
   width: 140px;        /* ajuste o tamanho que preferir */
-  height: 140px;       /* igual à largura para ficar quadrado */
   object-fit: cover;   /* corta para caber certinho no quadrado */
   border-radius: 6px;  /* opcional: cantos arredondados */
+ grid-template-columns: repeat(3, 1fr); /* 3 colunas */
   display: block;
 }
 
