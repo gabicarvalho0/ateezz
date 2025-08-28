@@ -89,10 +89,7 @@ text-align: justify;
   border-left: 3px solid #990000;
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px #000;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-  gap: 15px;
-  justify-content: center;
+text-align: center;
 }
 
 .intro img {
