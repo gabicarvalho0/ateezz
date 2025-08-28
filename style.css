@@ -90,13 +90,16 @@ text-align: justify;
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px #000;
 text-align: center;
- grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 15px;
+  justify-content: center;
 }
 
 .intro img {
   width: 140px;        /* ajuste o tamanho que preferir */
   object-fit: cover;   /* corta para caber certinho no quadrado */
-  border-radius: 6px;  /* opcional: cantos arredondados */
+  border-radius: 7px;  /* opcional: cantos arredondados */
   display: block;
 }
 
